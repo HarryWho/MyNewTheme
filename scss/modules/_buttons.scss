@@ -1,0 +1,26 @@
+/* Button BTN Styles */
+
+.btn{
+    border-radius: 0;
+    display: inline-block;
+    margin: 10px;
+    width: 150px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid $gold;
+    text-transform: uppercase;
+    font-size: .5em;
+    &.outline-gold{
+        
+        color: $gold;
+
+    }
+    &.filled-gold{
+        background: $gold;
+        color: #fff;
+    }
+    &.btn-primary{
+        background: $primary;
+        color: #fff;
+    }
+}

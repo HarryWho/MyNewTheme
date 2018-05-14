@@ -1,0 +1,29 @@
+/* NAV BAR */
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background: $primary;
+    z-index: 2;
+    .nav-bar ul{
+        
+        list-style: none;
+        .nav-item{
+            padding: 15px 20px;
+            display: inline-block;
+            a{
+                font-family: $roboto;
+                font-weight: 500;
+                color: #fff;
+                text-decoration: none;
+                transition: color 300ms ease-in-out;
+                &:hover,
+                &:focus,
+                &.active{
+                    color: $gold;
+                }
+            }
+            
+        }
+    }
+}
